@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    padding-top: 25px;
+}
+ /* text edits */
+.thin {
+    font-weight: 50;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: medium;
+}
+
+p {
+    font-size: xx-small;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    text-align: left;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: small;
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+
+.arti {
+    text-align: center;
+}
+
+/* images syntax */
+img {
+    float: right;
+    padding: 15px 15px 5px 10px;
+    
+}
+
+/* .im {
+    display: flex;
+    align-self: flex-end;
+} */
+
+/* boxes */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cards {
+    border-style: solid hidden hidden hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    height: 130px;
+    width: 210px;
+    margin: 15px;
+    flex-wrap:wrap;
+}
+
+.card1 {
+    border-color: rgb(0, 217, 255);
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+}
+
+.subcards {
+    border-style: solid hidden hidden hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    height:130px;
+    width: 210px;
+}
+
+.subcard1 {
+    margin-bottom: 15px;
+    border-color: rgb(221, 96, 96);
+}
+
+.subcard2 {
+    border-color: rgb(203, 169, 59);
+}
+
+.card3 {
+    /* float:right; margin-right: 10px; */
+    border-color: #6495ED;
+}
